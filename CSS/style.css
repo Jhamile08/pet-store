@@ -1,11 +1,9 @@
-@font-face {
-    font-family: roboto; src: url(../Fonts/roboto/Roboto-Regular.ttf)
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     margin: 0%;
     width: 100%;
-    font-family:roboto;
+    font-family: "Montserrat", sans-serif;
 }
 /* anuncio */
 
@@ -28,7 +26,7 @@ body{
 .idioma {
     color: #F3F3F3;
     text-decoration:none;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 20px;
     padding-right: 20px;
 }
@@ -43,11 +41,16 @@ body{
     font: size 20px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+  z-index: 100;
+  width: 100%;
     
 }
+
 .links-nav ul{
     display: flex;
     gap: 20px;
+    margin: 0;
 }
 .links-nav ul li{
     display: flex;
@@ -59,7 +62,7 @@ body{
 .links-nav ul li a{
     text-decoration: none;
     color: white;
-    
+    font-size: 20px;
 }
 
 .title-nav{
@@ -78,7 +81,10 @@ body{
     display: inline-block;
     text-align: center;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
+    background-image: url(../img/bowlhd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -91,14 +97,13 @@ body{
 .welcome-title {
     background-color: white;
     padding: 10px;
-    font-family: 'Roboto';
     font-style: normal;
     font-size: 35px;
 }
 
 .welcome-sub-title {
     font-size: 30px;
-    font-family: 'Roboto';
+    background-color: wheat;
 }
 
 .welcome-button {
@@ -134,7 +139,6 @@ body{
 
 .information-title {
     text-align: center;
-    font-family: Roboto;
     font-size: 50px;
     font-weight: 700; 
     margin-top: 10px;  
@@ -211,7 +215,7 @@ li {
 }
 
 .text1{
-    font-family: Roboto;
+
     font-size: 15px;
     font-weight: bold;
     color: #3C2313;
@@ -220,7 +224,7 @@ li {
 }
 
 h6{
-    font-family: Roboto;
+
     font-size: 15px;
     font-weight: bold;
     color: #F0A83E;
@@ -228,7 +232,6 @@ h6{
     top: -70px;
 }
 .titulo4{
-    font-family: Roboto;
     font-size: 25px;
     font-weight: bolder;
     color: #3C2313;
