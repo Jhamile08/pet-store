@@ -177,7 +177,7 @@ div{
 }
 .card{
     margin: 1em;
-    width: calc(75%/3);
+    width: calc(55%/3);
     
 }
 .card:hover{
@@ -193,7 +193,7 @@ div{
 .button-carousel{
     background-color: gray;
     border-radius: 50%;
-    padding: 41px;
+    padding: 31px;
 }
 
 /* footer */
